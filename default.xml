@@ -10,8 +10,13 @@
   <remote name="github"
            fetch="https://github.com" />
 
+  <remote name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
@@ -30,11 +35,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -46,8 +46,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -411,9 +409,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="packages/apps/Settings" name="platform_apps_Settings" remote="gnome" revision="Gnome-44" />
-  <project path="packages/apps/Settings" name="platform_apps_Dialer" remote="gnome" revision="Gnome-44" />
-  <project path="packages/apps/Settings" name="platform_apps_InCallUI" remote="gnome" revision="Gnome-44" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="gnome" revision="Gnome-44" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="gnome" revision="Gnome-44" />
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="gnome" revision="Gnome-44" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="gnome" revision="Gnome-44" />
 
 </manifest>
