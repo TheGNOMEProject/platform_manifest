@@ -30,7 +30,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -53,7 +53,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="TheGNOMEProject" revision="Gnome-44" />
-  <project path="device/lge/mako-kernel" name="android_kernel_google_msm" remote="PAEK" revision="kitkat" />
+  <project path="kernel/lge/mako" name="android_kernel_google_msm" remote="PAEK" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -269,7 +269,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
