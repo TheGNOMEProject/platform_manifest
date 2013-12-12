@@ -10,8 +10,8 @@
   <remote name="TheGNOMEProject"
            fetch="https://github.com/TheGNOMEProject" />
 
-  <remote name="PAEK"
-           fetch="https://github.com/Ayysir" />
+  <remote name="AOSPAL"
+           fetch="https://github.com/AOSPAL" />
 
   <remote name="github"
            fetch="https://github.com" />
@@ -53,7 +53,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="TheGNOMEProject" revision="Gnome-44" />
-  <project path="kernel/lge/mako" name="android_kernel_google_msm" remote="PAEK" revision="kitkat" />
+  <project path="kernel/lge/mako" name="android_kernel_google_msm" remote="AOSPAL" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
