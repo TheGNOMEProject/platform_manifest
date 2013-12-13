@@ -13,6 +13,9 @@
   <remote name="PAEK"
            fetch="https://github.com/Ayysir" />
 
+  <remote name="sm"
+           fetch="https://github.com/SaberMod" />
+
   <remote name="github"
            fetch="https://github.com" />
 
@@ -372,7 +375,7 @@
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
@@ -412,5 +415,6 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="gnome" revision="Gnome-44" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="gnome" revision="Gnome-44" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="gnome" revision="Gnome-44" />
+  <project path="vendor" name="gnome_vendor" remote="TheGNOMEProject" revision="master" />
 
 </manifest>
