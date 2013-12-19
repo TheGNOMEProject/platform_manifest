@@ -349,12 +349,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
@@ -406,6 +401,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="packages/apps/Xposed" name="platform_packages_apps_xposed" remote="TheGNOMEProject" revision="Gnome-44" />
+  <project path="packages/apps/GoogleDialer" name="platform_packages_apps_GoogleDialer" remote="TheGNOMEProject" revision="master" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="vendor" name="gnome_vendor" remote="TheGNOMEProject" revision="master" />
 
