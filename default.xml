@@ -401,7 +401,6 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="packages/apps/Xposed" name="platform_packages_apps_xposed" remote="TheGNOMEProject" revision="Gnome-44" />
-  <project path="packages/apps/GoogleDialer" name="platform_packages_apps_GoogleDialer" remote="TheGNOMEProject" revision="master" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="vendor" name="gnome_vendor" remote="TheGNOMEProject" revision="master" />
 
