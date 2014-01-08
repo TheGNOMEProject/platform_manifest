@@ -400,7 +400,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="TheGNOMEProject" revision="gnome-vanilla" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="kiko" revision="gnome-vanilla" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="TheGNOMEProject" revision="gnome-vanilla" />
