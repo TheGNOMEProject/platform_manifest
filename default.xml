@@ -13,16 +13,16 @@
   <remote name="TheGNOMEProject"
            fetch="https://github.com/TheGNOMEProject" />
 
-  <remote name="PAEK"
-           fetch="https://github.com/Ayysir" />
+  <remote name="github"
+           fetch="https://github.com/" />
 
-  <remote name="sm"
-           fetch="https://github.com/SaberMod" />
+  <remote name="toolchain"
+           fetch="https://bitbucket.org/kikomachine" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -55,6 +55,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
+  <project path="kernel/lge/hammerhead" name="emceethemouth/kernel_linux-3.4.y" remote="github" revision="mainstream" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="TheGNOMEProject" revision="Gnome-44" />
   <project path="kernel/lge/mako" name="platform_kernel_lge_mako" remote="kiko" revision="gnome-kk-mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -365,8 +367,8 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="arm-eabi-4.10" remote="toolchain" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="toolchain" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
